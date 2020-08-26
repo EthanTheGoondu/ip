@@ -29,7 +29,7 @@ public class Deadline extends Task {
     }
 
     public String toData() {
-        return String.format("[D]%s/by%s)", super.toString(), by);
+        return String.format("[D]%s/by%s", super.toString(), by);
     }
 
 }
