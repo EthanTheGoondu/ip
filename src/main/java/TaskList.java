@@ -1,5 +1,7 @@
 import java.util.ArrayList;
-
+/**
+ * The task list, which keeps track of all tasks.
+ */
 public class TaskList extends ArrayList<Task> {
 
     /**

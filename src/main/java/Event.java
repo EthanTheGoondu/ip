@@ -1,5 +1,8 @@
 import java.time.LocalDateTime;
 
+/**
+ * The event class, a variant of a task.
+ */
 public class Event extends Task {
 
     protected LocalDateTime at;

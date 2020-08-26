@@ -1,3 +1,6 @@
+/**
+ * The task class, kept in the task list.
+ */
 public class Task {
 
     private final String name;

@@ -1,5 +1,8 @@
 import java.time.LocalDateTime;
 
+/**
+ * The deadline class, a variant of a task.
+ */
 public class Deadline extends Task {
 
     protected LocalDateTime by;

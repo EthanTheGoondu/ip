@@ -5,6 +5,9 @@ public class Duke {
     static TaskList taskList = new TaskList();
     static DateTimeFormatter dateTimeFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy HHmm");
 
+    /**
+     * Runs the application.
+     */
     public static void main(String[] args) {
         try {
             taskList = Storage.loadFromMem();
